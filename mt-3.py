@@ -23,4 +23,5 @@ t1=time.time();
 ob1.square(data);
 ob2.cube(data);
 t2=time.time();
+time.sleep(5);
 print("DONE  IN  : ",t2-t1, "SECONDS");
